@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import { Link as ReactScrollLink } from 'react-scroll'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { MdOutlineClose } from 'react-icons/md'
@@ -35,12 +36,16 @@ const NavBar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Link
-            href="#home"
-            className=" w-14 h-14 rounded-full border-2 border-textGreen flex items-center justify-center"
+          <ReactScrollLink
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1500}
+            className=" w-14 h-14 rounded-full border-2 border-textGreen flex items-center justify-center cursor-pointer"
           >
             <p className="text-3xl text-textGreen">D</p>
-          </Link>
+          </ReactScrollLink>
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className=" flex text-[13px] gap-7">
