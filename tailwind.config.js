@@ -3,6 +3,8 @@ module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './common/**/*.{js,ts,jsx,tsx,mdx}',
+    './widgets/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -26,6 +28,7 @@ module.exports = {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        logo: ['PT Mono', 'monospace'],
       },
       boxShadow: {
         navbarShadow: '0 10px 30px -10px rgba(2,12,27,0.7)',
