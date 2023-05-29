@@ -28,15 +28,19 @@ const NavBar = () => {
     e.currentTarget.classList.add('active')
   }
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed top-0 z-50 bg-bodyColor px-4">
+    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed top-0 left-0 z-50 bg-bodyColor px-6">
       <div className=" max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className=" w-14 h-14 rounded-full border-2 border-textGreen flex items-center justify-center"
         >
-          <p className="text-3xl text-textGreen">D</p>
+          <Link
+            href="#home"
+            className=" w-14 h-14 rounded-full border-2 border-textGreen flex items-center justify-center"
+          >
+            <p className="text-3xl text-textGreen">D</p>
+          </Link>
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className=" flex text-[13px] gap-7">
