@@ -20,9 +20,7 @@ const About = () => {
             and businesses. My expertise in both front-end and back-end
             development, coupled with my ability to understand and empathize
             with my clients, allows me to craft custom software solutions that
-            truly meet their requirements. I am dedicated to staying current
-            with the latest tech stacks, such as MERN and JAM, in order to
-            continue delivering cutting-edge solutions.
+            truly meet their requirements.
           </p>
           <p>
             I am currently pursuing my BTech degree in Information Technology
@@ -33,9 +31,7 @@ const About = () => {
             , and I am set to graduate in 2024. In addition to my technical
             expertise, I am also proficient in programming languages such as C
             and C++, and I have developed strong problem-solving skills,
-            communication and interpersonal skills. I have built over 10 landing
-            pages using various technologies, and I am always eager to learn new
-            skills and build innovative, responsive web apps in the future.
+            communication and interpersonal skills.
           </p>
           <p>
             I believe in life-long learning, and I am constantly on the lookout

@@ -17,7 +17,7 @@ const Neophron = () => {
       <p className="text-sm mt-1 font-medium text-textDark">July 2022</p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="flex text-base gap-2 text-textDark">
-          <span className="text-textGreen" mt-1>
+          <span className="text-textGreen  mt-1">
             <TiArrowForward />{' '}
           </span>
           <p>
@@ -26,7 +26,7 @@ const Neophron = () => {
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
-          <span className="text-textGreen" mt-1>
+          <span className="text-textGreen  mt-1">
             <TiArrowForward />{' '}
           </span>
           <p>
@@ -35,7 +35,7 @@ const Neophron = () => {
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
-          <span className="text-textGreen" mt-1>
+          <span className="text-textGreen  mt-1">
             <TiArrowForward />{' '}
           </span>
           <p>
@@ -44,7 +44,7 @@ const Neophron = () => {
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
-          <span className="text-textGreen" mt-1>
+          <span className="text-textGreen  mt-1">
             <TiArrowForward />{' '}
           </span>
           <p>
