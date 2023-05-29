@@ -9,22 +9,22 @@ const SocialIcons = () => {
     <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
       <div className=" flex flex-col gap-4">
         <a href="" target="_blank">
-          <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+          <span className=" w-10 h-10 text-xl bg-bodyColor border-[1px]  border-textGreen/80 hover:border-textGreen  rounded-full inline-flex items-center justify-center text-textGreen/80 hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <TbBrandGithub />
           </span>
         </a>
         <a href="" target="_blank">
-          <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+          <span className=" w-10 h-10 text-xl bg-bodyColor border-[1px]  border-textGreen/80 hover:border-textGreen  rounded-full inline-flex items-center justify-center text-textGreen/80 hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <FaLinkedinIn />
           </span>
         </a>
         <a href="" target="_blank">
-          <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+          <span className=" w-10 h-10 text-xl bg-bodyColor border-[1px]  border-textGreen/80 hover:border-textGreen  rounded-full inline-flex items-center justify-center text-textGreen/80 hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <RxTwitterLogo />
           </span>
         </a>
         <a href="" target="_blank">
-          <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+          <span className=" w-10 h-10 text-xl bg-bodyColor border-[1px]  border-textGreen/80 hover:border-textGreen  rounded-full inline-flex items-center justify-center text-textGreen/80 hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <BiMailSend />
           </span>
         </a>

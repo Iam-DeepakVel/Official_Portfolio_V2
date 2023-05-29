@@ -104,9 +104,9 @@ const Archive = () => {
     ? archiveProjects
     : archiveProjects.slice(0, 6)
   return (
-    <div className="max-w-contentContainer mx-auto px-4 py-24">
+    <div className="max-w-contentContainer mx-auto px-4 mdl:py-24">
       <div className="w-full flex flex-col items-center">
-        <h2 className="text-3xl font-inter font-semibold mb-2">
+        <h2 className="text-3xl font-inter font-semibold mb-4 text-center">
           Other Noteworthy Projects
         </h2>
         <p className=" text-sm font-inter text-textGreen">View the Archive</p>

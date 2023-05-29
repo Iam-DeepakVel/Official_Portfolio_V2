@@ -5,7 +5,7 @@ import { AiFillThunderbolt } from 'react-icons/ai'
 const About = () => {
   return (
     <section
-      id="#about"
+      id="about"
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
     >
       <SectionTitle titleNo="01" title="About Me" />
