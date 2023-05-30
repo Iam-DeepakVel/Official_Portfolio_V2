@@ -6,22 +6,22 @@ import { BiMailSend } from 'react-icons/bi'
 const Footer = () => {
   return (
     <div className="hidden mdl:inline-flex xl:hidden items-center justify-center w-full py-6 gap-4">
-      <a href="" target="_blank">
+      <a href="https://github.com/Iam-DeepakVel" target="_blank">
         <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
           <TbBrandGithub />
         </span>
       </a>
-      <a href="" target="_blank">
+      <a href="https://www.linkedin.com/in/iamdeepakvel" target="_blank">
         <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
           <FaLinkedinIn />
         </span>
       </a>
-      <a href="" target="_blank">
+      <a href="https://twitter.com/Iam_DeepakVel" target="_blank">
         <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
           <RxTwitterLogo />
         </span>
       </a>
-      <a href="" target="_blank">
+      <a href="mailto:deepakvel82@gmail.com" target="_blank">
         <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
           <BiMailSend />
         </span>

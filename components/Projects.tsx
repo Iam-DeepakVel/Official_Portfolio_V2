@@ -14,7 +14,7 @@ const Projects = () => {
 
       <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
         {/* Smiley Notes */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full flex flex-col items-center justify-center gap-28">
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -77,7 +77,7 @@ const Projects = () => {
         {/* Smiley Notes End*/}
 
         {/* Twitter clone */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full flex flex-col items-center justify-center gap-28">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -141,7 +141,7 @@ const Projects = () => {
         {/* Twitter clone End*/}
 
         {/* Spicy Wingz */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full flex flex-col items-center justify-center gap-28">
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -205,7 +205,7 @@ const Projects = () => {
         {/* Spicy Wingz End*/}
 
         {/* Celestra Start */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full flex flex-col items-center justify-center gap-28">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -273,7 +273,7 @@ const Projects = () => {
         {/* Celestra End*/}
 
         {/* Stay Young Start */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full flex flex-col items-center justify-center gap-28">
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"

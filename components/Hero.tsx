@@ -1,5 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
+import { Link as ReactScrollLink } from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -39,14 +40,23 @@ const Hero = () => {
         you will find a collection of my past projects and my experiences.
         Thanks for visiting!
       </motion.p>
-      <motion.button
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 mt-4 md:mt-0 text-sm font-inter border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+
+      <ReactScrollLink
+        to="project"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={1500}
       >
-        Check out my Projects!
-      </motion.button>
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="w-52 h-14 mt-4 md:mt-0 text-sm font-inter border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        >
+          Check out my Projects!
+        </motion.button>
+      </ReactScrollLink>
     </section>
   )
 }

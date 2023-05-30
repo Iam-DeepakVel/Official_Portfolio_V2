@@ -240,7 +240,7 @@ const NavBar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1, ease: 'easeIn' }}
-                    href=""
+                    href="https://github.com/Iam-DeepakVel"
                     target="_blank"
                   >
                     <span className=" w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -248,7 +248,7 @@ const NavBar = () => {
                     </span>
                   </motion.a>
                   <motion.a
-                    href=""
+                    href="https://www.linkedin.com/in/iamdeepakvel"
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1, ease: 'easeIn' }}
@@ -259,7 +259,7 @@ const NavBar = () => {
                     </span>
                   </motion.a>
                   <motion.a
-                    href=""
+                    href="https://twitter.com/Iam_DeepakVel"
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1, ease: 'easeIn' }}
@@ -270,7 +270,7 @@ const NavBar = () => {
                     </span>
                   </motion.a>
                   <motion.a
-                    href=""
+                    href="mailto:deepakvel82@gmail.com"
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1, ease: 'easeIn' }}
