@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import { TiArrowForward } from 'react-icons/ti'
 
-const Skematix = () => {
+const StayYoung = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -11,11 +11,11 @@ const Skematix = () => {
       className="w-full"
     >
       <h3>
-        Front-end Developer Intern{' '}
-        <span className="text-textGreen tracking-wide">@Skematix</span>{' '}
+        Freelance Web Developer{' '}
+        <span className="text-textGreen tracking-wide">@StayYoung</span>{' '}
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Sep 2022 - Apr 2023
+        Apr 2023 - Jun 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="flex text-base gap-2 text-textDark">
@@ -23,9 +23,9 @@ const Skematix = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Worked on 2 projects utilizing frontend technologies such as{' '}
-            <span className="text-textGreen">ReactJS, Next.js, Astro</span>, and{' '}
-            <span className="text-textGreen">Eleventy</span>.
+            Built an{' '}
+            <span className="text-textGreen">full-stack ecommerce website</span>{' '}
+            using Next.js, Tailwind CSS, Nest.js, and MongoDB.
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -33,9 +33,8 @@ const Skematix = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Developed projects with a well-organized folder structure using
-            Next.js framework and gained proficiency in state management
-            libraries like <span className="text-textGreen">Redux</span> .
+            Utilized <span className="text-textGreen">Typescript</span> to
+            enhance codebase maintainability and reliability.
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -43,12 +42,9 @@ const Skematix = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Managed{' '}
-            <span className="text-textGreen">
-              implementing my own design ideas
-            </span>{' '}
-            with <span className="text-textGreen">Tailwindcss</span> for theming
-            and reusable components.
+            Implemented{' '}
+            <span className="text-textGreen">server-side rendering (SSR)</span>{' '}
+            using Next.js for improved performance and SEO optimization.
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -56,8 +52,9 @@ const Skematix = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Strengthened <span className="text-textGreen">teamwork</span> and
-            communication abilities through collaborative project work.
+            Employed <span className="text-textGreen">Docker</span> and{' '}
+            <span className="text-textGreen">Jenkins</span> for containerization
+            and CI/CD pipeline setup.
           </p>
         </li>
       </ul>
@@ -65,4 +62,4 @@ const Skematix = () => {
   )
 }
 
-export default Skematix
+export default StayYoung

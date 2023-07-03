@@ -11,7 +11,7 @@ const Webilicious = () => {
       className="w-full"
     >
       <h3>
-        Full Stack Developer Intern{' '}
+        Front-end Developer Intern{' '}
         <span className="text-textGreen tracking-wide">@Webilicious</span>{' '}
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">Jan 2023</p>
@@ -21,9 +21,11 @@ const Webilicious = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Led the development of Rurket, a rural side groceries delivery
-            application, utilizing ReactJS, TailwindCSS, and Firebase for the
-            backend.
+            Developed the user interface for{' '}
+            <span className="text-textGreen">
+              Rurket (a rural side groceries delivery application){' '}
+            </span>{' '}
+            using React.js and Tailwind CSS.
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -31,8 +33,14 @@ const Webilicious = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Developed a strong understanding of React and implemented Agile
-            methodology throughout the software development lifecycle.
+            Acquired{' '}
+            <span className="text-textGreen">
+              end-to-end project management
+            </span>{' '}
+            skills, encompassing all stages from initial planning to deployment
+            on cloud platforms such as{' '}
+            <span className="text-textGreen">Vercel</span> and{' '}
+            <span className="text-textGreen">Netlify</span> .
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -40,8 +48,11 @@ const Webilicious = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Responsible for end-to-end testing and reviewing of code to ensure
-            high-quality and functionality.
+            Gained valuable experience in{' '}
+            <span className="text-textGreen">version control</span> using{' '}
+            <span className="text-textGreen">Git</span>
+            and <span className="text-textGreen">GitHub</span> while working
+            collaboratively with a team.
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -49,8 +60,21 @@ const Webilicious = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Built the application to be a Progressive Web Application to provide
-            a seamless user experience.
+            Built the application to be a{' '}
+            <span className="text-textGreen">
+              Progressive Web Application(PWA)
+            </span>{' '}
+            to provide a seamless user experience.
+          </p>
+        </li>
+        <li className="flex text-base gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />{' '}
+          </span>
+          <p>
+            Successfully implemented the{' '}
+            <span className="text-textGreen"> agile methodology</span>,
+            contributing to efficient project management and timely delivery.
           </p>
         </li>
       </ul>

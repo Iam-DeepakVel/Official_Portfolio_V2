@@ -1,6 +1,5 @@
 import SectionTitle from '@/widgets/SectionTitle'
 import Image from 'next/image'
-import React from 'react'
 import { TbBrandGithub } from 'react-icons/tb'
 import { RxOpenInNewWindow } from 'react-icons/rx'
 
@@ -42,11 +41,15 @@ const Projects = () => {
 
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
                 SmileyNotes is a platform for spreading positivity and
-                inspiration through notes and quotes. Our website allows users
-                to create and store their own{' '}
-                <span className="text-textGreen">notes</span> with titles and
-                content, making it easy to keep track of their ideas, thoughts,
-                and to-do lists.
+                inspiration through{' '}
+                <span className="text-textGreen">notes</span> and{' '}
+                <span className="text-textGreen">quotes</span> . Our website
+                allows users to create and store their own notes with titles and
+                content, making it easy to{' '}
+                <span className="text-textGreen">
+                  keep track of their ideas, thoughts
+                </span>{' '}
+                , and <span className="text-textGreen">to-do lists</span> .
               </p>
               <ul className="text-xs md:text-sm font-inter tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Nextjs</li>
@@ -168,9 +171,12 @@ const Projects = () => {
               </div>
 
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Spicywingz is a food delivery web application built using
-                ReactJS, Firebase, Framer Motion, and TailwindCSS. The project
-                utilizes{' '}
+                Spicywingz is a{' '}
+                <span className="text-textGreen">
+                  food delivery web application
+                </span>{' '}
+                built using ReactJS, Firebase, Framer Motion, and TailwindCSS.
+                The project utilizes{' '}
                 <span className="text-textGreen">
                   Firebase for user authentication
                 </span>{' '}
@@ -300,19 +306,18 @@ const Projects = () => {
               </div>
 
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                StayYoung is a{' '}
+                Stay Young is an{' '}
+                <span className="text-textGreen">e-commerce website</span> that
+                enables users to purchase{' '}
                 <span className="text-textGreen">
-                  premier Korean skincare website
+                  Korean skincare products online
                 </span>{' '}
-                that brings you the latest in beauty technology. Powered by{' '}
+                . The website utilizes an{' '}
                 <span className="text-textGreen">
-                  Next.js and Tailwind CSS,
+                  admin panel for product monitoring
                 </span>{' '}
-                our frontend offers a seamless user experience with stunning
-                visuals and responsive design. With{' '}
-                <span className="text-textGreen">Nest.js and MongoDB</span> on
-                the backend, we ensure robust functionality and secure data
-                storage. Enjoy captivating animations powered by Framer Motion.
+                and management, allowing administrators to add, edit, and delete
+                products, categories and banners.
               </p>
               <ul className="text-xs md:text-sm font-inter tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Next.js</li>

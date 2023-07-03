@@ -14,29 +14,28 @@ const About = () => {
         {/* Content Section */}
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            As a skilled web developer with 1 year of experience, I am
-            passionate about utilizing my technical abilities to create
-            solutions that effectively address the unique needs of individuals
-            and businesses. My expertise in both front-end and back-end
-            development, coupled with my ability to understand and empathize
-            with my clients, allows me to craft custom software solutions that
-            truly meet their requirements.
+            I am a highly motivated and dedicated individual with a passion for
+            technology. With a strong background in front-end and back-end
+            development, I possess good interpersonal skills, leadership
+            abilities, and strong teamwork capabilities.
           </p>
           <p>
-            I am currently pursuing my BTech degree in Information Technology
-            from{' '}
+            I am currently in my fourth year, pursuing a B.Tech degree in
+            Information Technology from{' '}
             <span className="text-textGreen">
               Coimbatore Institute of Technology
             </span>{' '}
-            , and I am set to graduate in 2024. In addition to my technical
-            expertise, I am also proficient in programming languages such as C
-            and C++, and I have developed strong problem-solving skills,
-            communication and interpersonal skills.
+            , with an expected graduation in 2024.
           </p>
           <p>
-            I believe in life-long learning, and I am constantly on the lookout
-            for more efficient ways to do things. To find out more about what I
-            can do for you, check out my work below.
+            My expertise in both front-end and back-end development allows me to
+            understand and empathize with my clients, enabling me to create
+            custom software solutions that precisely meet their requirements.
+          </p>
+          <p>
+            I have a strong commitment to continuous learning, always seeking
+            more efficient ways to improve my skills. To find out more about
+            what I can do for you, check out my work below.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-inter grid grid-cols-2 gap-2 mt-6">

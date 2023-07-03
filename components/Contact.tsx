@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import { Tooltip } from '@nextui-org/react'
 
 const Contact = () => {
   return (
@@ -13,7 +14,9 @@ const Contact = () => {
       </p>
       <a href="mailto:deepakvel82@gmail.com" target="_blank">
         <button className="w-40 h-14 border border-textGreen mt-6 font-inter text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
-          Say Hello
+          <Tooltip content="deepakvel82@gmail.com" rounded color="invert">
+            Hire me
+          </Tooltip>
         </button>
       </a>
     </section>

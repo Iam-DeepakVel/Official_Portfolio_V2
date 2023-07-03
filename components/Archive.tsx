@@ -11,6 +11,13 @@ interface ArchiveProject {
 
 const archiveProjects = [
   {
+    title: 'kitty chan UI',
+    description:
+      'Kitty chan is a powerful Discord bot, currently serving 1000+ users in 15+ Discord servers, with capabilities for server moderation. It is built using Next.js, Tailwindcss and Framer Motion.',
+    link: 'https://github.com/Iam-DeepakVel/kitty-chan-ui',
+    technologies: ['Next.js', 'Tailwindcss', 'Docker', 'Jenkins'],
+  },
+  {
     title: 'FriendZone',
     description:
       'FriendZone is an advanced real-time chat application. It uses Next.js, Socket.io, and Express.js, and is written in TypeScript. The user interface is designed with Chakra UI to create a visually appealing and user-friendly experience.',
@@ -39,13 +46,6 @@ const archiveProjects = [
     technologies: ['React.js', 'Tailwindcss', 'Firebase'],
   },
   {
-    title: 'Bookmarks API',
-    description:
-      'A backend for Bookmarks app built with Nest.js, Docker, PostgreSQL and Passport.js for authentication, Prisma as the ORM, Pactum for API testing and Dotenv for environment management.',
-    link: 'https://github.com/Iam-DeepakVel/Nest-BookmarksAPI',
-    technologies: ['Nest.js', 'PostgreSQL', 'Prisma', 'Docker'],
-  },
-  {
     title: 'Next-Ecommerce',
     description:
       'This is a e-commerce app built using next.js, tailwindcss, mongoDB and stripe. I have implemented stripe checkout and webhook to receive information from stripe.',
@@ -53,6 +53,13 @@ const archiveProjects = [
     technologies: ['Next.js', 'MongoDB', 'Stripe'],
   },
   // More Projects
+  {
+    title: 'Bookmarks API',
+    description:
+      'A backend for Bookmarks app built with Nest.js, Docker, PostgreSQL and Passport.js for authentication, Prisma as the ORM, Pactum for API testing and Dotenv for environment management.',
+    link: 'https://github.com/Iam-DeepakVel/Nest-BookmarksAPI',
+    technologies: ['Nest.js', 'PostgreSQL', 'Prisma', 'Docker'],
+  },
   {
     title: 'Stayyoung Server',
     description:
@@ -63,7 +70,7 @@ const archiveProjects = [
   {
     title: 'Modern Blog Site',
     description:
-      'This is a simple project which is made using JAM Stack. Admin can add blog with help of NetlifyCMS. This project is built using 11ty',
+      'This is a simple project which is made using JAM Stack. Admin can add blog with help of NetlifyCMS. This project is built using 11ty.',
     link: 'https://github.com/Iam-DeepakVel/11ty-JAMStack-BlogSite',
     technologies: ['Eleventy', 'Tailwindcss', 'NetlifyCMS'],
   },
@@ -77,14 +84,14 @@ const archiveProjects = [
   {
     title: 'Simple Landing Page',
     description:
-      'A static Website is made using eleventy, nunjucks, tailwindcss!!!',
+      'A static Website is made using eleventy, nunjucks, tailwindcss.',
     link: 'https://github.com/Iam-DeepakVel/Eleventy-Tailwind',
     technologies: ['Eleventy', 'Nunjucks', 'Tailwindcss'],
   },
   {
     title: 'Cocktails',
     description:
-      'This is a simple React.js project that helps to understand fetching data from API and presenting it in frontend!! ',
+      'This is a simple React.js project that helps to understand fetching data from API and presenting it in frontend. ',
     link: 'https://github.com/Iam-DeepakVel/React-APIFetch-Project-1',
     technologies: ['React'],
   },

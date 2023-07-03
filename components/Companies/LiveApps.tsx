@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import { TiArrowForward } from 'react-icons/ti'
 
-const Skematix = () => {
+const LiveApps = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -11,11 +11,11 @@ const Skematix = () => {
       className="w-full"
     >
       <h3>
-        Front-end Developer Intern{' '}
-        <span className="text-textGreen tracking-wide">@Skematix</span>{' '}
+        Full Stack Developer (Part-time){' '}
+        <span className="text-textGreen tracking-wide">@LiveApps</span>{' '}
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Sep 2022 - Apr 2023
+        Apr 2023 - Present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="flex text-base gap-2 text-textDark">
@@ -23,9 +23,10 @@ const Skematix = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Worked on 2 projects utilizing frontend technologies such as{' '}
-            <span className="text-textGreen">ReactJS, Next.js, Astro</span>, and{' '}
-            <span className="text-textGreen">Eleventy</span>.
+            Live Apps is an{' '}
+            <span className="text-textGreen">open-source organization</span>{' '}
+            where we actively develop and maintain projects with the purpose of
+            learning new technologies and helping others learn as well.
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -33,9 +34,9 @@ const Skematix = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Developed projects with a well-organized folder structure using
-            Next.js framework and gained proficiency in state management
-            libraries like <span className="text-textGreen">Redux</span> .
+            Actively contributing to the open source project{' '}
+            <span className="text-textGreen">{'kitty chan'} </span> to enhance
+            my skills and knowledge as a web developer.
           </p>
         </li>
         <li className="flex text-base gap-2 text-textDark">
@@ -43,21 +44,23 @@ const Skematix = () => {
             <TiArrowForward />{' '}
           </span>
           <p>
-            Managed{' '}
+            kitty chan is a{' '}
+            <span className="text-textGreen">powerful Discord bot</span> ,
+            currently serving{' '}
+            <span className="text-textGreen">1000+ users</span> in{' '}
+            <span className="text-textGreen">15+ Discord servers</span> , with
+            capabilities for server moderation.
+          </p>
+        </li>
+        <li className="flex text-base gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />{' '}
+          </span>
+          <p>
+            Responsible for building the frontend for kitty chan bot using{' '}
             <span className="text-textGreen">
-              implementing my own design ideas
-            </span>{' '}
-            with <span className="text-textGreen">Tailwindcss</span> for theming
-            and reusable components.
-          </p>
-        </li>
-        <li className="flex text-base gap-2 text-textDark">
-          <span className="text-textGreen mt-1">
-            <TiArrowForward />{' '}
-          </span>
-          <p>
-            Strengthened <span className="text-textGreen">teamwork</span> and
-            communication abilities through collaborative project work.
+              Next.js (Typescript), Tailwind CSS, and Framer Motion.
+            </span>
           </p>
         </li>
       </ul>
@@ -65,4 +68,4 @@ const Skematix = () => {
   )
 }
 
-export default Skematix
+export default LiveApps
