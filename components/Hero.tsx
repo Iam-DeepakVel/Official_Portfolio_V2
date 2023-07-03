@@ -2,6 +2,7 @@
 import { Tooltip } from '@nextui-org/react'
 import { motion } from 'framer-motion'
 import { Link as ReactScrollLink } from 'react-scroll'
+import ReactTyped from 'react-typed'
 
 const Hero = () => {
   return (
@@ -25,7 +26,19 @@ const Hero = () => {
       >
         Deepak{' '}
         <span className="text-textDark  mt-2 lgl:mt-4">
-          I Love Full Stack Development.
+          <ReactTyped
+            strings={[
+              'Frontend Developer',
+              'Backend Developer',
+              'IT Student',
+              'Active Programmer',
+              'Love to Code and Create',
+              'I Love Full Stack Development',
+            ]}
+            typeSpeed={60}
+            backSpeed={45}
+            loop
+          />
         </span>
       </motion.h1>
       <motion.p
