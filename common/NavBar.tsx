@@ -8,6 +8,7 @@ import { TbBrandGithub } from 'react-icons/tb'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { RxTwitterLogo } from 'react-icons/rx'
 import { BiMailSend } from 'react-icons/bi'
+import { Tooltip } from '@nextui-org/react'
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false)
@@ -31,22 +32,24 @@ const NavBar = () => {
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed top-0 left-0 z-50 bg-bodyColor px-6">
       <div className=" max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-        >
-          <ReactScrollLink
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={1500}
-            className=" w-14 h-14 rounded-full border-2 border-textGreen flex items-center justify-center cursor-pointer"
+        <Tooltip content="Deepak V" color="invert" placement="right">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
           >
-            <p className="text-3xl text-textGreen">D</p>
-          </ReactScrollLink>
-        </motion.div>
+            <ReactScrollLink
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1500}
+              className=" w-14 h-14 rounded-full border-2 border-textGreen flex items-center justify-center cursor-pointer"
+            >
+              <p className="text-3xl text-textGreen">D</p>
+            </ReactScrollLink>
+          </motion.div>
+        </Tooltip>
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className=" flex text-[13px] gap-7">
             <Link
